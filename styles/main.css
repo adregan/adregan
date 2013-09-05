@@ -430,20 +430,17 @@ table {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 115%;
-}
-
-@media (min-width: 50rem) {
-  html {
-    font-size: 140%;
-  }
-}
-
 body {
   background-color: white;
   color: #333333;
   font-family: "ff-dagny-web-pro", sans-serif;
+  font-size: 115%;
+}
+
+@media (min-width: 50rem) {
+  body {
+    font-size: 140%;
+  }
 }
 
 h1,
@@ -456,13 +453,13 @@ h6 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
 }
 
 .wrapped {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
 }
 
 header {
@@ -487,4 +484,39 @@ nav li {
 
 nav a {
   text-decoration: none;
+}
+
+.project {
+  padding: 1em 0;
+}
+
+.project img {
+  display: block;
+  margin: 0 auto;
+}
+
+.tyo {
+  background-color: #343434;
+  color: white;
+}
+
+.tyo img {
+  max-width: 10em;
+}
+
+.tender {
+  background-color: white;
+}
+
+.tender img {
+  max-width: 15em;
+}
+
+.khartrum {
+  background-color: #1c1e27;
+  color: white;
+}
+
+.khartrum img {
+  max-width: 8em;
 }
