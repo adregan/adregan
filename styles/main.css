@@ -430,17 +430,20 @@ table {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 115%;
+}
+
+@media (min-width: 50rem) {
+  html {
+    font-size: 140%;
+  }
+}
+
 body {
   background-color: white;
   color: #333333;
   font-family: "ff-dagny-web-pro", sans-serif;
-  font-size: 110%;
-}
-
-@media (min-width: 50rem) {
-  body {
-    font-size: 120%;
-  }
 }
 
 h1,
@@ -450,4 +453,38 @@ h4,
 h5,
 h6 {
   font-family: "brandon-grotesque", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.wrapped {
+  margin: 0 auto;
+  width: 95%;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+nav a {
+  text-decoration: none;
 }
