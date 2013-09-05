@@ -2,11 +2,11 @@
   { "title" : "TYO Mag",
     "about": "<p>TYO Mag is an online arts and literary magazine featuring artwork from Japanese artists and foreign artists working in Japan. As my <a href='http://krishartrum.com'>co-editor</a> and I originally conceived TYO, it is meant to help connect those creating art in Tokyo to the outside art world (especially the non-Japanese speaking art world).</p><p>In developing the site, I placed a premium on readability across all devices. A very significant portion of our audience finds TYO through social media, and often, that's on their phones. So all of the issues are fully responsive.</p>"
   },
-  { "title" : "K Hartrum Portfolio",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quam soluta sit sapiente eos cum excepturi. Itaque, incidunt, ad quae ipsam eius aut harum ea quas dignissimos soluta facilis quod."
+  { "title" : "Kris Hartrum",
+    "about": "<p>My TYO co-editor, Kris Hartrum, was in need of a new site to showcase his writing. His previous site was a Wordpress blog, and he needed something that would easily allow potential freelance clients to see some of his more serious work. Because his site updates so infrequently, I went with a static site and blog generated with Jekyll. The site is fully responsive.</p>"
   },
   {
     "title" : "Tender Buttons Illustrated",
-    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi commodi quibusdam itaque ratione vitae reprehenderit! Quae, omnis, reprehenderit, pariatur, et inventore atque adipisci impedit quos ratione veniam architecto vel."
+    "about" : "<p>A painter friend, Sadie Starnes, was looking for a new project to kill some time in between art shows. Sharing a mutual love of Gertrude Stein's <em>Tender Buttons</em>, we thought it might be fun to have a site which illustrated different passages from the book.</p>"
   }
 ]

@@ -1,0 +1,1 @@
+A painter friend, Sadie Starnes, was looking for a new project to kill some time in between art shows. Sharing a mutual love of Gertrude Stein's *Tender Buttons*, we thought it might be fun to have a site which illustrated different passages from the book.
