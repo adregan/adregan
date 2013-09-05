@@ -423,3 +423,31 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #333333;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-size: 110%;
+}
+
+@media (min-width: 50rem) {
+  body {
+    font-size: 120%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "brandon-grotesque", sans-serif;
+}
