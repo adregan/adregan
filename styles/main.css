@@ -545,7 +545,7 @@ section.projects hr {
   background-color: #3a4044;
   display: block;
   margin: 0 auto;
-  padding: 0.7em 0;
+  padding: 0.8em 0;
 }
 
 .project:last-of-type {
@@ -564,6 +564,18 @@ section.projects hr {
   max-width: 8em;
 }
 
+.details {
+  background: white;
+  border-radius: 1px;
+  color: #333333;
+  display: none;
+  padding: 1.5em 1em;
+}
+
+.details a {
+  color: #333333;
+}
+
 .thoughts {
   padding: 1em 0 2em 0;
 }
@@ -575,4 +587,8 @@ section.projects hr {
 
 .contact a {
   color: white;
+}
+
+.show {
+  display: inherit;
 }
