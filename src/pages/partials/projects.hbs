@@ -4,11 +4,8 @@
     <h2 class="box-heading">Selected Projects</h2>
   </div>
   {{#each projects}}
-    <article class="project {{project-name}} wrapped">
-        <img src="{{logo}}" alt="">
-        <div class="details">
-          {{{about}}}
-        </div>
+    <article class="project {{project-name}}">
+        <a href="{{url}}"><img src="{{logo}}" alt=""></a>
     </article>
 
   {{/each}}

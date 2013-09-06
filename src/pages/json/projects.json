@@ -2,17 +2,20 @@
   { "title" : "TYO Mag",
     "project-name": "tyo",
     "logo": "resources/tyo.png",
+    "url":"http://tyomag.com",
     "about": "<p>TYO Mag is an online arts and literary magazine featuring artwork from Japanese artists and foreign artists working in Japan. As my <a href='http://krishartrum.com'>co-founder</a> and I originally conceived TYO, it is meant to help connect those creating art in Tokyo to the outside art world (especially the non-Japanese speaking art world).</p>"
+  },
+  { "title" : "Kris Hartrum",
+    "project-name": "khartrum",
+    "logo" : "resources/khartrum.png",
+    "url":"http://krishartrum.com",
+    "about": "<p>My TYO co-editor, Kris Hartrum, was in need of a new site to showcase his writing. His previous site was a Wordpress blog, and he needed something that would easily allow potential freelance clients to see some of his more serious work. It is a static site generated with Jekyll.</p>"
   },
   {
     "title" : "Tender Buttons Illustrated",
     "project-name": "tender",
     "logo" : "resources/tender.png",
+    "url":"http://tenderbuttons.github.io",
     "about" : "<p>A painter friend, <a href='http://sadiestarnes.com/'>Sadie Starnes</a>, was looking for a new project to kill some time in between art shows. Sharing a mutual love of Gertrude Stein's <em>Tender Buttons</em>, I created a site for her to post illustrated passages from the book.</p>"
-  },
-  { "title" : "Kris Hartrum",
-    "project-name": "khartrum",
-    "logo" : "resources/khartrum.png",
-    "about": "<p>My TYO co-editor, Kris Hartrum, was in need of a new site to showcase his writing. His previous site was a Wordpress blog, and he needed something that would easily allow potential freelance clients to see some of his more serious work. It is a static site generated with Jekyll.</p>"
   }
 ]
