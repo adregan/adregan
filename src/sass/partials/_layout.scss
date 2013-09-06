@@ -43,7 +43,7 @@ section.projects {
 }
 
 .box-heading {
-  background: white;
+  background: $background;
   border: 3px solid $textcolor;
   display: inline-block;
   font-size: 1.3em;
@@ -90,8 +90,7 @@ section.projects {
 }
 
 .contact {
-  background-color: $textcolor;
-  color: white;
+  border-top: 3px dotted $textcolor;
   padding: 2.5em 1em;
   a {color: white;}
 }
