@@ -8,7 +8,7 @@ module.exports = function(grunt){
           tasks: ['html']
         },
         js: {
-          files: ['<%= jshint.files %>'],
+          files: ['./src/js/*.js'],
           tasks: ['js']
         },
         sass: {
@@ -31,7 +31,7 @@ module.exports = function(grunt){
         },
         dist: {
           // the files to concatenate
-          src: ['src/**/*.js'],
+          src: ['src/js/jquery.js', 'src/js/js.js'],
           // the location of the resulting JS file
           dest: './dist/js/<%= pkg.name %>.js'
         }
@@ -49,19 +49,6 @@ module.exports = function(grunt){
         }
       },
 
-      jshint: {
-        // define the files to lint
-        files: ['gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-        // configure JSHint (documented at http://www.jshint.com/docs/)
-        options: {
-          // more options here if you want to override JSHint defaults
-          globals: {
-            jQuery: true,
-            console: true,
-            module: true
-          }
-        }
-      },
           
       sass: {                                 
         dist: {                             
@@ -161,7 +148,7 @@ module.exports = function(grunt){
 
   grunt.registerTask('html', ['assemble', 'htmlmin']);
 
-  grunt.registerTask('js', ['jshint', 'concat', 'uglify']);
+  grunt.registerTask('js', ['concat', 'uglify']);
 
   grunt.registerTask('style', ['sass', 'autoprefixer', 'cssmin']);
 

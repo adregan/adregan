@@ -65,7 +65,7 @@ section.projects {
     background-color: $background;
     display: block;
     margin: 0 auto;
-    padding: .5em 0;
+    padding: .8em 0;
   }
 }
 
@@ -85,6 +85,15 @@ section.projects {
   img {max-width: 8em;}
 }
 
+.details {
+  background: white;
+  border-radius: 1px;
+  color: #333;
+  display: none;
+  padding: 1.5em 1em;
+  a {color: #333;}
+}
+
 .thoughts {
   padding: 1em 0 2em 0;
 }
@@ -93,4 +102,8 @@ section.projects {
   border-top: 3px dotted $textcolor;
   padding: 2.5em 1em;
   a {color: white;}
+}
+
+.show {
+  display: inherit;
 }

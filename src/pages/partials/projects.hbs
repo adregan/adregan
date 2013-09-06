@@ -4,11 +4,13 @@
     <h2 class="box-heading">Selected Projects</h2>
   </div>
   {{#each projects}}
-    <article class="project {{project-name}}">
-      <div class="wrapped">
+    <article class="project {{project-name}} wrapped">
         <img src="{{logo}}" alt="">
-      </div>
+        <div class="details">
+          {{{about}}}
+        </div>
     </article>
+
   {{/each}}
   <hr>
 </section>
