@@ -431,10 +431,11 @@ table {
 }
 
 body {
-  background-color: white;
-  color: #333333;
-  font-family: "ff-dagny-web-pro", sans-serif;
+  background-color: #f3f3f5;
+  color: #3c3c3c;
+  font-family: "minion-pro", Georgia, serif;
   font-size: 115%;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 50rem) {
@@ -443,18 +444,26 @@ body {
   }
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "minion-pro", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
 }
 
 p {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.61;
+  margin: 0;
+  padding-bottom: 0.1em;
+  text-indent: 1.5em;
+}
+
+p:first-of-type {
+  text-indent: 0;
 }
 
 .wrapped {
@@ -463,12 +472,22 @@ p {
 }
 
 header {
-  text-align: center;
+  padding: 1em 0 2em 0;
 }
 
 header h1 {
+  font-size: 2.7em;
+  font-weight: 400;
   margin: 0;
-  padding: 0.5em 0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
@@ -486,37 +505,75 @@ nav a {
   text-decoration: none;
 }
 
+section.projects {
+  position: relative;
+}
+
+section.projects hr {
+  border-top: 3px #3c3c3c solid;
+  height: 0;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.section-head {
+  text-align: center;
+}
+
+.box-heading {
+  background: white;
+  border: 3px solid #3c3c3c;
+  display: inline-block;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0.4em 1.6em;
+}
+
+.stripe {
+  border-right: 3px solid #3c3c3c;
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  z-index: -1000;
+}
+
 .project {
-  padding: 1em 0;
+  padding-top: 5em;
 }
 
 .project img {
+  background-color: #f3f3f5;
   display: block;
   margin: 0 auto;
+  padding: 0.5em 0;
 }
 
-.tyo {
-  background-color: #343434;
-  color: white;
+.project:last-of-type {
+  padding-bottom: 5em;
 }
 
 .tyo img {
   max-width: 10em;
 }
 
-.tender {
-  background-color: white;
-}
-
 .tender img {
   max-width: 15em;
 }
 
-.khartrum {
-  background-color: #1c1e27;
-  color: white;
-}
-
 .khartrum img {
   max-width: 8em;
+}
+
+.thoughts {
+  padding: 1em 0 2em 0;
+}
+
+.contact {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 2.5em 1em;
+}
+
+.contact a {
+  color: white;
 }
