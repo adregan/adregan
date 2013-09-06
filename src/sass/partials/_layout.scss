@@ -1,0 +1,97 @@
+header {
+  padding: 1em 0 2em 0;
+  h1 {
+    font-size: 2.7em;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+nav {
+  ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block; 
+    padding: 0 .5em;
+  }
+  a {text-decoration: none;}
+}
+
+section.projects {
+  position: relative;
+  hr{
+    border-top: 3px $textcolor solid;
+    height: 0;
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+.section-head {
+  text-align: center;
+}
+
+.box-heading {
+  background: white;
+  border: 3px solid $textcolor;
+  display: inline-block;
+  font-size: 1.3em;
+  margin: 0;
+  padding: .4em 1.6em;
+}
+
+.stripe {
+  border-right: 3px solid $textcolor;
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  z-index: -1000;
+}
+
+.project {
+  padding-top: 5em;
+  img {
+    background-color: $background;
+    display: block;
+    margin: 0 auto;
+    padding: .5em 0;
+  }
+}
+
+.project:last-of-type {
+  padding-bottom: 5em;
+}
+
+.tyo {
+  img{max-width: 10em;}
+} 
+
+.tender {
+  img {max-width: 15em;}
+}
+
+.khartrum {
+  img {max-width: 8em;}
+}
+
+.thoughts {
+  padding: 1em 0 2em 0;
+}
+
+.contact {
+  background-color: $textcolor;
+  color: white;
+  padding: 2.5em 1em;
+  a {color: white;}
+}

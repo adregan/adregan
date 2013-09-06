@@ -1,13 +1,37 @@
 * {box-sizing: border-box;}
 
-body {
-  background-color: white;
-  color: $textcolor;
-  font-family: $bodystack;
-  font-size: 110%;
-  @media(min-width: $desktop) {font-size: 120%;}
+html {
 }
 
-h1, h2, h3, h4, h5, h6 {
+body {
+  background-color: $background;
+  color: $textcolor;
+  font-family: $fontstack;
+  font-size: 115%;
+  text-rendering: optimizeLegibility;
+  @media(min-width: $desktop) { font-size: 130%;}
+
+}
+
+h2, h3, h4, h5, h6 {
   font-family: $displaystack;
+  font-style: italic;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.61;
+  margin: 0;
+  padding-bottom: .1em;
+  text-indent: 1.5em;
+}
+
+p:first-of-type {
+  text-indent: 0;
+}
+
+.wrapped {
+  margin: 0 auto;
+  width: 90%;
 }
