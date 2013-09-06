@@ -431,8 +431,8 @@ table {
 }
 
 body {
-  background-color: #f3f3f5;
-  color: #3c3c3c;
+  background-color: #3a4044;
+  color: white;
   font-family: "minion-pro", Georgia, serif;
   font-size: 120%;
   text-rendering: optimizeLegibility;
@@ -510,7 +510,7 @@ section.projects {
 }
 
 section.projects hr {
-  border-top: 3px #3c3c3c solid;
+  border-top: 3px white solid;
   height: 0;
   margin: 0 auto;
   width: 60%;
@@ -521,8 +521,8 @@ section.projects hr {
 }
 
 .box-heading {
-  background: white;
-  border: 3px solid #3c3c3c;
+  background: #3a4044;
+  border: 3px solid white;
   display: inline-block;
   font-size: 1.3em;
   margin: 0;
@@ -530,7 +530,7 @@ section.projects hr {
 }
 
 .stripe {
-  border-right: 3px solid #3c3c3c;
+  border-right: 3px solid white;
   height: 100%;
   position: absolute;
   width: 50%;
@@ -542,7 +542,7 @@ section.projects hr {
 }
 
 .project img {
-  background-color: #f3f3f5;
+  background-color: #3a4044;
   display: block;
   margin: 0 auto;
   padding: 0.5em 0;
@@ -569,8 +569,7 @@ section.projects hr {
 }
 
 .contact {
-  background-color: #3c3c3c;
-  color: white;
+  border-top: 3px dotted white;
   padding: 2.5em 1em;
 }
 
