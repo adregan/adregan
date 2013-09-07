@@ -8837,12 +8837,4 @@ if ( typeof window === "object" && typeof window.document === "object" ) {
       $(this).prev().slideToggle('200');
     })
 
-    $(".ex-button").click(function(){
-  if($(this).hasClass("rotate")) {
-    $(this).removeClass("rotate").addClass("rotate-back");
-  } else{
-    $(this).addClass("rotate");
-  }
-
-
 });
