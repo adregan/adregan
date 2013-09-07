@@ -575,7 +575,7 @@ section.projects hr {
 }
 
 .tender img {
-  margin-left: 7%;
+  margin: 0 auto;
 }
 
 .khartrum img {
@@ -617,37 +617,4 @@ section.projects hr {
 
 .hide {
   visibility: hidden;
-}
-
-.rotate-back {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.rotate {
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.ex-button {
-  background-image: url("/resources/plus.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 65% 65%;
-  background-size: 65% 65%;
-  border-radius: 100%;
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  line-height: 0;
-  margin-top: 0.25rem;
-  height: 20px;
-  width: 20px;
 }
