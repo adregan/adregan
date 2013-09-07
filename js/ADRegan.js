@@ -8828,6 +8828,21 @@ if ( typeof window === "object" && typeof window.document === "object" ) {
 
 })( window );;$( document ).ready(function() {
     $(".project img").click(function(){
-      $(this).next().slideToggle( 200 );
+      $(this).next().next().toggleClass( "hide" );
+      $(this).next().slideToggle('200');
     })
+
+    $(".info-link").click(function(){
+      $(this).toggleClass( "hide" );
+      $(this).prev().slideToggle('200');
+    })
+
+    $(".ex-button").click(function(){
+  if($(this).hasClass("rotate")) {
+    $(this).removeClass("rotate").addClass("rotate-back");
+  } else{
+    $(this).addClass("rotate");
+  }
+
+
 });

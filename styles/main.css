@@ -538,14 +538,26 @@ section.projects hr {
 }
 
 .project {
-  padding-top: 5em;
+  margin: 5em auto 0 auto;
+  max-width: 25em;
+  text-align: center;
 }
 
 .project img {
   background-color: #3a4044;
   display: block;
-  margin: 0 auto;
-  padding: 0.8em 0;
+  padding: 0.8em 0 0.3em 0;
+  width: 90%;
+}
+
+.project .info-link {
+  background: #3a4044;
+  display: block;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-left: -0.9em;
+  margin-top: 0;
+  padding-bottom: 0.5em;
 }
 
 .project:last-of-type {
@@ -553,27 +565,37 @@ section.projects hr {
 }
 
 .tyo img {
-  max-width: 10em;
+  margin-left: 7.5%;
+}
+
+@media (min-width: 50rem) {
+  .tyo img {
+    margin-left: 8%;
+  }
 }
 
 .tender img {
-  max-width: 15em;
+  margin-left: 7%;
 }
 
 .khartrum img {
-  max-width: 8em;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .details {
-  background: white;
-  border-radius: 1px;
-  color: #333333;
+  background: #3a4044;
   display: none;
-  padding: 1.5em 1em;
+  padding: 1em 1em;
 }
 
 .details a {
-  color: #333333;
+  color: white;
+}
+
+.details p {
+  font-style: italic;
+  text-align: left;
 }
 
 .thoughts {
@@ -591,4 +613,41 @@ section.projects hr {
 
 .show {
   display: inherit;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.rotate-back {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.rotate {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.ex-button {
+  background-image: url("/resources/plus.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 65% 65%;
+  background-size: 65% 65%;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  line-height: 0;
+  margin-top: 0.25rem;
+  height: 20px;
+  width: 20px;
 }
