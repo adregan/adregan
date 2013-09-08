@@ -1,8 +1,5 @@
 * {box-sizing: border-box;}
 
-html {
-}
-
 body {
   background-color: $background;
   color: $textcolor;
@@ -10,7 +7,6 @@ body {
   font-size: 120%;
   text-rendering: optimizeLegibility;
   @media(min-width: $desktop) { font-size: 130%;}
-
 }
 
 h2, h3, h4, h5, h6 {
@@ -34,4 +30,5 @@ p:first-of-type {
 .wrapped {
   margin: 0 auto;
   width: 90%;
+  max-width: 27em;
 }

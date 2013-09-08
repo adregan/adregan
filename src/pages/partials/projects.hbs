@@ -6,6 +6,10 @@
   {{#each projects}}
     <article class="project {{project-name}}">
         <a href="{{url}}"><img src="{{logo}}" alt=""></a>
+        <div class="details wrapped">
+          {{{about}}}
+        </div>
+        <div class="info-link"><div class="ex-button"></div><span>info</span></div>
     </article>
 
   {{/each}}

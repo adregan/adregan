@@ -1,0 +1,9 @@
+.rotate-back {
+    transform: rotate(0deg);
+    transition: all .5s ease;
+}
+
+.rotate {
+    transform: rotate(135deg);
+    transition: all .5s ease;
+}

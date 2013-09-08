@@ -35,6 +35,7 @@ section.projects {
     height: 0;
     margin: 0 auto;
     width: 60%;
+    @media(min-width: $desktop) {width:40%;}
   }
 }
 
@@ -60,38 +61,75 @@ section.projects {
 }
 
 .project {
-  padding-top: 5em;
+  margin: 5em auto 0 auto;
+  max-width: 25em;
+  text-align: center;
   img {
     background-color: $background;
     display: block;
-    margin: 0 auto;
-    padding: .8em 0;
+    padding: 1em 0;
+    width: 90%;
+  }
+  .info-link {
+    cursor: pointer;
+    display: block;
+    font-style: italic;
+    font-size: 1em;
+    margin-left: -.9em;
+    margin-top:0;
+    padding-right: 2em;
+    text-align: right;
   }
 }
+
+.ex-button {
+  background-image:url("/resources/plus.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 65% 65%;
+  border-radius: 100%;
+  color: white;
+  display: inline-block;
+  line-height: 0;
+  margin-bottom: -.25em;
+  margin-right: .2em;
+  height: 23px;
+  width: 23px;
+}
+
 
 .project:last-of-type {
   padding-bottom: 5em;
 }
 
 .tyo {
-  img{max-width: 10em;}
+  img{margin-left: 7.5%;
+  @media(min-width: $desktop) {margin-left:8%;}
+}
 } 
 
 .tender {
-  img {max-width: 15em;}
+  img{margin: 0 auto;}
 }
 
 .khartrum {
-  img {max-width: 8em;}
+  img{
+    width: 70%;
+    margin: 0 auto;
+   }
 }
 
 .details {
-  background: white;
-  border-radius: 1px;
-  color: #333;
+  background: $background;
   display: none;
-  padding: 1.5em 1em;
-  a {color: #333;}
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 80%;
+  a {color: $textcolor;}
+  p {
+    font-style: italic;
+    text-align: left;
+  }
 }
 
 .thoughts {
@@ -107,3 +145,9 @@ section.projects {
 .show {
   display: inherit;
 }
+
+.hide {
+  visibility: hidden;
+}
+
+
