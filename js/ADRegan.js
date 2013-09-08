@@ -8827,14 +8827,15 @@ if ( typeof window === "object" && typeof window.document === "object" ) {
 }
 
 })( window );;$( document ).ready(function() {
-    $(".project img").click(function(){
-      $(this).next().next().toggleClass( "hide" );
-      $(this).next().slideToggle('200');
-    })
 
     $(".info-link").click(function(){
-      $(this).toggleClass( "hide" );
-      $(this).prev().slideToggle('200');
-    })
+    if($(this).children(".ex-button").hasClass("rotate")) {
+    $(this).children(".ex-button").removeClass("rotate").addClass("rotate-back");
+    $(this).prev().slideUp('350');
+    } else{
+    $(this).children(".ex-button").addClass("rotate");
+    $(this).prev().slideDown(350);
+    }
+  })
 
 });
