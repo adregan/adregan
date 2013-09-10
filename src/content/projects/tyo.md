@@ -1,3 +1,1 @@
-TYO Mag is an online arts and literary magazine featuring artwork from Japanese artists and foreign artists working in Japan. As my [co-editor](http://krishartrum.com) and I originally conceived TYO, it is meant to help connect those creating art in Tokyo to the outside art world (especially the non-Japanese speaking art world).
-
-In developing the site, I placed a premium on readability across all devices. A very significant portion of our audience finds TYO through social media, and often, that's on their phones. So all of the issues are fully responsive.
+TYO Mag is an online arts and literary magazine featuring artwork from Japanese artists and foreign artists working in Japan. As conceived by myself and my [co-founder](http://krishartrum.com), TYO is meant to help connect those creating art in Tokyo and Japan to the outside art world (especially the non-Japanese speaking art world).
