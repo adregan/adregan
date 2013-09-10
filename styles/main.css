@@ -519,7 +519,7 @@ section.projects hr {
 
 @media (min-width: 50rem) {
   section.projects hr {
-    width: 40%;
+    width: 35%;
   }
 }
 
