@@ -110,6 +110,20 @@ module.exports = function(grunt){
           }
         }
       },
+
+      imagemin: {
+        dynamic: {
+          options:{
+            optimizationLevel: 3
+          },
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'src/resources',          // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+          dest: 'dist/resources'         // Destination path prefix
+        }]
+        }
+      },
           
       connect: {
         server: {
@@ -145,10 +159,13 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('html', ['assemble', 'htmlmin']);
 
   grunt.registerTask('js', ['concat', 'uglify']);
+
+  grunt.registerTask('img', ['imagemin']);
 
   grunt.registerTask('style', ['sass', 'autoprefixer', 'cssmin']);
 
@@ -156,6 +173,6 @@ module.exports = function(grunt){
 
   grunt.registerTask('pub', ['default','gh-pages']);
 
-  grunt.registerTask('default', ['js', 'style', 'clean', 'html']);
+  grunt.registerTask('default', ['js', 'style', 'clean', 'imagemin', 'html']);
 
 };
