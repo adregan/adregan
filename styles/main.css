@@ -673,7 +673,7 @@ section.projects hr {
   max-width: 35em;
 }
 
-.logo h1 {
+.resume .logo h1 {
   margin: 0;
   text-align: center;
 }
@@ -700,6 +700,6 @@ section.projects hr {
   padding-bottom: 2em;
 }
 
-.jobs dd {
+.resume .jobs dd {
   margin-left: 1em;
 }
