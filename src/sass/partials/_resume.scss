@@ -1,0 +1,40 @@
+/* Layout code- MOBILE FIRST */
+
+.resume {
+  background-color: white;
+  color: lighten(#333, 10%);
+  .wrapped {
+    max-width: 35em;
+  }
+  padding-bottom: 4em;
+
+.logo {
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.degrees {
+    margin: 0 auto;
+    width: 95%;
+  }
+  td {
+    vertical-align: top;}
+  .about {
+    padding: 0 1em 1em 1em;
+  }
+  dl {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .description {
+    padding-bottom: 2em;
+  }
+
+
+.jobs {
+  dd {margin-left: 1em;}
+}
+
+}
