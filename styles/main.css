@@ -660,3 +660,46 @@ section.projects hr {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
+/* Layout code- MOBILE FIRST */
+
+.resume {
+  background-color: white;
+  color: #4d4d4d;
+  padding-bottom: 4em;
+}
+
+.resume .wrapped {
+  max-width: 35em;
+}
+
+.logo h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.resume .degrees {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.resume td {
+  vertical-align: top;
+}
+
+.resume .about {
+  padding: 0 1em 1em 1em;
+}
+
+.resume dl {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.resume .description {
+  padding-bottom: 2em;
+}
+
+.jobs dd {
+  margin-left: 1em;
+}
