@@ -703,3 +703,7 @@ section.projects hr {
 .resume .jobs dd {
   margin-left: 1em;
 }
+
+.resume .center {
+  text-align: center;
+}
